@@ -1,0 +1,18 @@
+# Created by newuser for 5.9
+
+. /opt/asdf-vm/asdf.sh
+
+# Personal Path edits
+export PATH=$HOME/.bin:$PATH
+
+export EDITOR=nvim
+
+eval "$(zellij setup --generate-auto-start zsh)"
+
+# git aliases
+alias gits='git status'
+alias gitl='git log'
+
+# needs to be last
+eval "$(starship init zsh)"
+alias dlv=~/.asdf/installs/golang/1.18/packages/bin/dlv

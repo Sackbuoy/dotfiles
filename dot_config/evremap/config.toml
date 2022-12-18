@@ -1,0 +1,28 @@
+device_name = "AT Translated Set 2 keyboard"
+
+# for vim
+[[remap]]
+input = ["KEY_CAPSLOCK"]
+output = ["KEY_ESC"]
+
+# # volume
+# [[remap]]
+# input = ["KEY_F1"]
+# output = ["KEY_MUTE"]
+#
+# [[remap]]
+# input = ["KEY_F2"]
+# output = ["KEY_VOLUMEDOWN"]
+#
+# [[remap]]
+# input = ["KEY_F3"]
+# output = ["KEY_VOLUMEUP"]
+#
+# # screen brightness
+# [[remap]]
+# input = ["KEY_F12"]
+# output = ["KEY_BRIGHTNESSUP"]
+#
+# [[remap]]
+# input = ["KEY_F11"]
+# output = ["KEY_BRIGHTNESSDOWN"]

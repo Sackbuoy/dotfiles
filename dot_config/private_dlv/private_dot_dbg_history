@@ -1,0 +1,74 @@
+b cmd/main.go:22
+c
+p devices
+c
+p devices
+rebuild
+c
+p devices
+c
+rebuild
+c
+p devices
+c
+b cmd/main.go:41
+clear 1
+c
+p device.Address.String()
+b cmd/main.go:43
+q
+b cmd/main.go:22
+c
+p devices
+c
+p devices
+rebuild
+c
+p devices
+c
+rebuild
+c
+p devices
+c
+b cmd/main.go:41
+clear 1
+c
+p device.Address.String()
+b cmd/main.go:43
+q
+b cmd/main.go:43
+c
+p addr
+p name
+c
+p addr
+p devices
+c
+p devices
+c
+p devices
+c
+p devices
+c
+p devices
+c
+p devices
+c
+p devices
+c
+p devices
+c
+cc
+c
+cc
+c
+p devices
+c
+p devices
+rebuild
+c
+rebuild
+c
+rebuild
+c
+q

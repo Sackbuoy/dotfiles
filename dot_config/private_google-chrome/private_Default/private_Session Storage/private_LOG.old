@@ -1,0 +1,18 @@
+2022/12/17-02:21:21.286 3 Reusing MANIFEST /home/cameron/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2022/12/17-02:21:21.288 3 Recovering log #60
+2022/12/17-02:21:21.289 3 Reusing old log /home/cameron/.config/google-chrome/Default/Session Storage/000060.log 
+2022/12/17-02:34:12.545 7 Level-0 table #64: started
+2022/12/17-02:34:12.552 7 Level-0 table #64: 15970 bytes OK
+2022/12/17-02:34:12.554 7 Delete type=0 #60
+2022/12/17-02:34:12.554 7 Compacting 4@0 + 1@1 files
+2022/12/17-02:34:12.561 7 Generated table #65@0: 3946 keys, 82527 bytes
+2022/12/17-02:34:12.561 7 Compacted 4@0 + 1@1 files => 82527 bytes
+2022/12/17-02:34:12.562 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/17-02:34:12.563 7 Delete type=2 #56
+2022/12/17-02:34:12.563 7 Delete type=2 #59
+2022/12/17-02:34:12.563 7 Delete type=2 #64
+2022/12/17-02:34:12.563 7 Delete type=2 #54
+2022/12/17-02:34:12.563 7 Delete type=2 #61
+2022/12/17-03:11:28.195 7 Level-0 table #67: started
+2022/12/17-03:11:28.214 7 Level-0 table #67: 16102 bytes OK
+2022/12/17-03:11:28.217 7 Delete type=0 #63

@@ -1,0 +1,60 @@
+window#waybar {
+  background-color: transparent
+}
+
+#clock,
+#workspaces,
+#network,
+#bluetooth,
+#custom-pipewire,
+#battery {
+  font-size: medium;
+  padding-left: 10px;
+  padding-right: 15px;
+  border-radius: 15px;
+  background-color: #cdd6f4;
+  color: #516079;
+  box-shadow: rgba(0, 0, 0, 0.116) 2 2 5 2px;
+  margin-right: 5px;
+}
+
+#battery {
+  background-color: #ffff66;
+}
+
+#battery.charging {
+    color: white;
+    background-color: green;
+}
+
+#battery.warning {
+  background-color: orange;
+}
+
+#battery.critical {
+  background-color: red;
+}
+
+#clock {
+  background-color: #6bb56d;
+  color: white;
+}
+
+#network {
+  background-color: #006666;
+  color: white;
+}
+
+#workspaces {
+  background-color: white;
+}
+
+#bluetooth {
+  background-color: #0066ff;
+  color: white;
+}
+
+#custom-pipewire {
+  background-color: #b34700;
+  color: white;
+}

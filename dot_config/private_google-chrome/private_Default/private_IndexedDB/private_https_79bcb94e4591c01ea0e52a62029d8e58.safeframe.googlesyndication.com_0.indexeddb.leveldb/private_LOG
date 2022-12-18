@@ -1,0 +1,6 @@
+2022/12/13-20:36:27.842 1f548 Creating DB /home/cameron/.config/google-chrome/Default/IndexedDB/https_79bcb94e4591c01ea0e52a62029d8e58.safeframe.googlesyndication.com_0.indexeddb.leveldb since it was missing.
+2022/12/13-20:36:27.845 1f548 Reusing MANIFEST /home/cameron/.config/google-chrome/Default/IndexedDB/https_79bcb94e4591c01ea0e52a62029d8e58.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/13-20:36:37.908 2400d Level-0 table #5: started
+2022/12/13-20:36:37.909 2400d Level-0 table #5: 460 bytes OK
+2022/12/13-20:36:37.910 2400d Delete type=0 #3
+2022/12/13-20:36:37.910 2400d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

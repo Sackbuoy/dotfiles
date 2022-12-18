@@ -1,0 +1,6 @@
+2022/12/08-23:35:07.469 7caf Creating DB /home/cameron/.config/google-chrome/Profile 1/IndexedDB/https_dzone.com_0.indexeddb.leveldb since it was missing.
+2022/12/08-23:35:07.471 7caf Reusing MANIFEST /home/cameron/.config/google-chrome/Profile 1/IndexedDB/https_dzone.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/08-23:36:04.268 7c4d Level-0 table #5: started
+2022/12/08-23:36:04.269 7c4d Level-0 table #5: 46154 bytes OK
+2022/12/08-23:36:04.270 7c4d Delete type=0 #3
+2022/12/08-23:36:04.270 7c4d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

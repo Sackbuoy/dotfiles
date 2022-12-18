@@ -1,0 +1,24 @@
+2022/12/17-02:21:14.706 3 Reusing MANIFEST /home/cameron/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2022/12/17-02:21:14.708 3 Recovering log #317
+2022/12/17-02:21:14.709 3 Reusing old log /home/cameron/.config/google-chrome/Default/Local Storage/leveldb/000317.log 
+2022/12/17-02:32:34.699 7 Level-0 table #322: started
+2022/12/17-02:32:34.712 7 Level-0 table #322: 32859 bytes OK
+2022/12/17-02:32:34.713 7 Delete type=0 #317
+2022/12/17-02:47:15.298 3 Level-0 table #324: started
+2022/12/17-02:47:15.306 3 Level-0 table #324: 23823 bytes OK
+2022/12/17-02:47:15.310 3 Delete type=0 #321
+2022/12/17-03:09:21.427 7 Level-0 table #326: started
+2022/12/17-03:09:21.443 7 Level-0 table #326: 24068 bytes OK
+2022/12/17-03:09:21.445 7 Delete type=0 #323
+2022/12/17-03:14:09.283 7 Level-0 table #328: started
+2022/12/17-03:14:09.290 7 Level-0 table #328: 288023 bytes OK
+2022/12/17-03:14:09.292 7 Delete type=0 #325
+2022/12/17-03:14:09.293 7 Compacting 4@0 + 1@1 files
+2022/12/17-03:14:09.319 7 Generated table #329@0: 2265 keys, 1954539 bytes
+2022/12/17-03:14:09.319 7 Compacted 4@0 + 1@1 files => 1954539 bytes
+2022/12/17-03:14:09.320 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/17-03:14:09.321 7 Delete type=2 #319
+2022/12/17-03:14:09.321 7 Delete type=2 #326
+2022/12/17-03:14:09.321 7 Delete type=2 #322
+2022/12/17-03:14:09.321 7 Delete type=2 #328
+2022/12/17-03:14:09.321 7 Delete type=2 #324

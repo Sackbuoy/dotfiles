@@ -1,0 +1,18 @@
+#!/bin/bash
+BINS=$HOME/.bin
+
+if [[ $1 == 'open' ]]; then
+  $BINS/btscan &>/dev/null & disown
+  $BINS/eww open bluetooth
+elif [[ $1 == 'toggle' ]]; then
+
+  if [[ -z $($BINS/eww windows | grep bluetooth | grep '\*') ]]; then
+    $BINS/bt open
+  else
+    $HOME/.bin/bt close
+  fi
+
+else
+  $BINS/eww close bluetooth
+  echo "false" > /tmp/btscan
+fi

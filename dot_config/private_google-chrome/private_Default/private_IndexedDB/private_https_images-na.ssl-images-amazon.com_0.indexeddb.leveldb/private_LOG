@@ -1,0 +1,6 @@
+2022/12/12-21:42:48.916 9259 Creating DB /home/cameron/.config/google-chrome/Default/IndexedDB/https_images-na.ssl-images-amazon.com_0.indexeddb.leveldb since it was missing.
+2022/12/12-21:42:48.918 9259 Reusing MANIFEST /home/cameron/.config/google-chrome/Default/IndexedDB/https_images-na.ssl-images-amazon.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/12-21:43:06.371 56ca Level-0 table #5: started
+2022/12/12-21:43:06.371 56ca Level-0 table #5: 362 bytes OK
+2022/12/12-21:43:06.372 56ca Delete type=0 #3
+2022/12/12-21:43:06.372 56ca Manual compaction at level-0 from (begin) .. (end); will stop at (end)
