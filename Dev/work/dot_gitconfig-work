@@ -1,0 +1,6 @@
+[user]
+	name = Cameron Kientz
+	email = cameron.kientz@fishtech.group
+
+[credential "https://dev.azure.com"]
+  useHttpPath = true
