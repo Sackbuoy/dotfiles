@@ -1,9 +1,0 @@
-2022/12/08-22:23:58.260 2ad3 Reusing MANIFEST /home/cameron/.config/google-chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
-2022/12/08-22:23:58.260 2ad3 Recovering log #3
-2022/12/08-22:23:58.262 2ad3 Reusing old log /home/cameron/.config/google-chrome/Profile 1/Sync Data/LevelDB/000003.log 
-2022/12/08-22:24:07.084 2af7 Level-0 table #5: started
-2022/12/08-22:24:07.087 2af7 Level-0 table #5: 128420 bytes OK
-2022/12/08-22:24:07.088 2af7 Delete type=0 #3
-2022/12/08-22:26:09.754 2ade Level-0 table #7: started
-2022/12/08-22:26:09.761 2ade Level-0 table #7: 153632 bytes OK
-2022/12/08-22:26:09.762 2ade Delete type=0 #4

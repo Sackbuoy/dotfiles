@@ -1,6 +1,0 @@
-2022/12/14-21:20:19.639 2ced5 Creating DB /home/cameron/.config/google-chrome/Default/IndexedDB/https_linuxhint.com_0.indexeddb.leveldb since it was missing.
-2022/12/14-21:20:19.647 2ced5 Reusing MANIFEST /home/cameron/.config/google-chrome/Default/IndexedDB/https_linuxhint.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/14-21:20:25.157 2c2f4 Level-0 table #5: started
-2022/12/14-21:20:25.158 2c2f4 Level-0 table #5: 4765 bytes OK
-2022/12/14-21:20:25.159 2c2f4 Delete type=0 #3
-2022/12/14-21:20:25.159 2c2f4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

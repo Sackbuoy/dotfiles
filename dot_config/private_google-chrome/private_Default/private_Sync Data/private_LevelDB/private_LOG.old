@@ -1,6 +1,0 @@
-2022/12/17-02:21:14.715 436 Reusing MANIFEST /home/cameron/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2022/12/17-02:21:14.716 436 Recovering log #98
-2022/12/17-02:21:14.716 436 Reusing old log /home/cameron/.config/google-chrome/Default/Sync Data/LevelDB/000098.log 
-2022/12/17-02:59:23.966 6de4 Level-0 table #102: started
-2022/12/17-02:59:23.983 6de4 Level-0 table #102: 100886 bytes OK
-2022/12/17-02:59:23.984 6de4 Delete type=0 #98
