@@ -1,0 +1,41 @@
+(defpoll btDeviceList :interval "2s" 
+                      :initial '[{"Name": "I do be scanneyboi..."}]'
+  "cat /tmp/bt-devices")
+
+(defpoll connectedDevice :interval "2s"
+  `bluetoothctl devices Connected | awk '{print $3}'`)
+
+(defwindow bluetooth
+           :monitor 0
+           :geometry (geometry :x "50px"
+                               :y "20px"
+                               :width "10%"
+                               :height "10%"
+                               :anchor "top right")
+           :stacking "fg"
+           :exclusive false
+           :focusable true
+  (btWidget :list btDeviceList)
+)
+
+(defwidget btWidget []
+  (box :orientation "vertical"
+       :halign "center"
+       :class "btWidget"
+    (jsonList :list btDeviceList "btDeviceList")
+  )
+)
+
+(defwidget jsonList [list]
+  (box :orientation "vertical"
+       :halign "center"
+    (label :text {connectedDevice != "" ? "Connected to ${connectedDevice}" : "No connections"})
+    (for entry in list ; it complains this isnt json, seems to work tho
+      (button :onclick "echo 'false' > /tmp/btscan && bluetoothctl connect ${entry.ID}"
+              :timeout "100s"
+        "${entry.Name}"
+      )
+    ) 
+  )
+)
+

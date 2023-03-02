@@ -13,6 +13,15 @@ eval "$(zellij setup --generate-auto-start zsh)"
 alias gits='git status'
 alias gitl='git log'
 
+alias dlv=~/.asdf/installs/golang/1.18/packages/bin/dlv
+
+# for wofi. might need to change later but this is a quick fix for getting 
+# my own list of apps without all the bullshit in /usr/share/applications
+# EDIT: I dont remember doing this, and this dir doesnt exist. did this work?
+# export XDG_DATA_DIRS=$HOME/.wofi-applications
+
+alias k=kubectl
+alias ch=chezmoi
+
 # needs to be last
 eval "$(starship init zsh)"
-alias dlv=~/.asdf/installs/golang/1.18/packages/bin/dlv
